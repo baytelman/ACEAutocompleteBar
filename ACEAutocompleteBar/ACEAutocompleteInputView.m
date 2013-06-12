@@ -95,6 +95,11 @@
     }
 }
 
+- (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event
+{
+    BOOL b = !self.hidden && [super pointInside:point withEvent:event];
+    return b;
+}
 
 #pragma mark - Properties
 

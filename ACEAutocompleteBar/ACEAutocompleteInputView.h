@@ -22,6 +22,7 @@
 
 
 #import <UIKit/UIKit.h>
+#import "ACEAutocompleteBar.h"
 
 @interface ACEAutocompleteInputView : UIView<UITextFieldDelegate>
 
