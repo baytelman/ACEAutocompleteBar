@@ -119,7 +119,7 @@
     return _textColor;
 }
 
-#pragma makr - Helpers
+#pragma mark - Helpers
 
 - (NSString *)stringForObjectAtIndex:(NSUInteger)index
 {
